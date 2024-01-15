@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Kalnia&family=Mukta:wght@300&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 0, 87, 0.882);
+}
+
+.main{
+    background-color: rgba(111, 54, 151, 0.634);
+    border:2px solid rgba(255, 255, 255, 0.744);
+    box-shadow: 3px 5px 7px white;
+    height:45vw;
+    width:45vw;
+    margin-top:2.5vw;
+}
+.addtodo input{
+    width:15vw;
+    height:3vw;
+    margin-top:5vw;
+    margin-left:12vw;
+    margin-right:1vw;
+    border-radius:2vw ;
+    padding-left:1vw;
+    border-style: none;
+    font-size: 17px;
+   font-family: 'Abel',sans-serif ;
+}
+
+.addtodo button{
+    border-radius:2vw ;
+    border: 2px solid #300250;
+    height:3vw;
+    width:5vw;
+    background-color: rgb(133, 96, 168);
+    color: white;
+    font-size: 17px;
+    font-family: 'Abel',sans-serif ;
+}
+
+.buttons{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Abel',sans-serif ;  
+}
+
+.buttons button {
+    margin-left:2vw;
+    border-radius:2vw ;
+    border: 2px solid rgb(48, 2, 80);
+    height:3vw;
+    width:5vw;
+    background-color: rgb(133, 96, 168);
+    color: white;
+    font-size: 17px;
+    font-family: 'Abel',sans-serif ;
+}
